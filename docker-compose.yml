@@ -1,10 +1,8 @@
 version: "3.8"
 
 services:
-  nginx:
-    build: ./nginx
-    image: nginx
-    container_name: "nginx_cont"
+  web :
+    image: "itszaynofficial/notes-app:latest"
     ports:
       - "80:80"
     restart: always
