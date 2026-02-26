@@ -4,7 +4,7 @@ services:
   web :
     image: "itszaynofficial/notes-app:latest"
     ports:
-      - "80:80"
+      - "8000:8000"
     restart: always
     depends_on:
       - django_app
